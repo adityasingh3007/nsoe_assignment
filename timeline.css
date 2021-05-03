@@ -1,0 +1,114 @@
+.add_button_container {
+    margin-left:auto;
+    margin-right:auto;
+    max-width:300px;
+    padding:5px;
+}
+
+.add_button {
+    width: 100%;
+    text-align: center;
+    background: #000;
+    color:#ffdb58;
+    border:1px solid #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding:10px;
+    border-top-left-radius:10px;
+    border-bottom-right-radius:10px;
+    transition:all 0.5s;
+    cursor:pointer;
+    user-select: none;
+    outline: none;
+}
+
+.add_button:hover {
+   transform: scale(1.05);
+}
+
+.event_container {
+    background: #ffdb58;
+    padding:10px;
+    margin:10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow:0px 2px 5px 0 rgba(0,0,0,.19);
+}
+
+.event_container:hover {
+    box-shadow: 0px 5px 15px 0 rgba(0,0,0,.24), 0px 2px 5px 0 rgba(0,0,0,.19);
+}
+._row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    margin-top:20px;
+}
+
+._column {
+    flex: 50%;
+    max-width: 50%;
+}
+
+.event_head {
+    font-family: 'HP';
+    font-weight: bold;
+    margin:5px auto 5px auto;
+}
+
+.event_desc {
+    font-family: 'Calibri';
+    margin:15px auto 5px auto;
+}
+
+.event_time {
+    margin:15px auto 5px auto;
+    line-height: 25px;
+}
+
+.event_control {
+    display:block;
+    margin:15px auto 5px auto;
+    height:20px;
+}
+
+.panel_button {
+    float:right;
+    position: relative;
+    width:auto;
+    padding:6px 8px;
+    text-align:center;
+    outline:none;
+    border-radius:25px;
+    border:none;
+    color:#000;
+    border:1px solid #000;
+    background:#FFDB58;
+    cursor:pointer;
+    transition:all 0.5s; 
+}
+    
+.panel_button:hover {color:#FFF;background:#1161ee;border:1px solid #1161ee;}
+    
+.del_but:hover {color:#fff;border:1px solid red;background:red}
+
+@media (max-width:880px) {
+    ._column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width:670px) {
+    ._column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width:520px) {
+    ._column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}

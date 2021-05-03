@@ -1,0 +1,52 @@
+.header_container {
+	background:#FFDB58;
+	width:100%;
+	padding:20px;
+	transition:all 0.5s;
+	user-select:none;
+	position:sticky;
+	position:-webkit-sticky;
+	top:0px;
+	left:0px;
+	z-index:100;
+	box-shadow: 0 12px 15px 0 rgba(0,0,0,.24), 0 17px 50px 0 rgba(0,0,0,.19);
+}
+.header_container a {text-decoration:none;}
+.header_bar {max-width:1100px;margin:auto;}
+.main_logo {
+	font-size:30px;
+	font-weight:bold;
+	transition:all 0.5s;
+	color:#000 !important;
+	display:inline-flex;
+	font-family:'HP';
+	user-select:none
+}
+.account_control {
+	display:inline-flex;
+	position:relative;
+	float:right;
+	font-weight:bold;
+	cursor:pointer;
+	margin-top:6px;
+	padding-top:5px;
+	padding-left:5px;
+	border-top-left-radius:5px;border-top-right-radius:5px;}
+.user_name a,.user_name a:visited{color:#000;display:inline;transition:all 0.5s;text-decoration: none;}
+.user_name a:hover{text-decoration: underline;}
+
+.footer {background:rgba(0,0,0,0.8);width:100%;padding:10px;min-height:80px;}
+._foot {color:#fff;font-family:'HP'}
+._foot_notes {display:inline;font-size:20px}
+._foot_notes a{color:#fff;text-decoration:none}
+.navigate_page {max-width:1000px;margin:20px auto;}
+.copyright {float:right;font-size:18px}
+.com_ {font-size:15px}
+
+@media (max-width:420px) {
+		.main_logo {font-size:20px}
+		.account_control {padding-left:0px;padding-top:10px;margin-top:-1px}
+		._foot_notes {font-size:16px}
+		.com_ {font-size:12px}
+		.copyright {float:right;font-size:15px}
+	}
